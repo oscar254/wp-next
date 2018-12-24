@@ -1,0 +1,21 @@
+{
+  "name": "wp-next",
+  "version": "1.0.0",
+  "description": "WordPress client with next js",
+  "main": "server.js",
+  "repository": "https://github.com/eduardorengifo/wp-next.git",
+  "author": "Eduardo Rengifo <eduardorengifo5@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build src",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "koa": "2.6.2",
+    "koa-router": "7.4.0",
+    "next": "7.0.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
+  }
+}
