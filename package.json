@@ -12,10 +12,14 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
-    "koa": "2.6.2",
-    "koa-router": "7.4.0",
-    "next": "7.0.2",
-    "react": "16.7.0",
-    "react-dom": "16.7.0"
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "1.10.0"
   }
 }
