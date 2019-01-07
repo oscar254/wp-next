@@ -5,3 +5,4 @@ pipeline:
       - npm install
       - npm lint
       - npm test
+
