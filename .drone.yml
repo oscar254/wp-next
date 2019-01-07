@@ -3,6 +3,6 @@ pipeline:
     image: node:10.15.0
     commands:
       - npm install
-      - npm lint
-      - npm test
+      - npm run lint
+      - npm run test
 
