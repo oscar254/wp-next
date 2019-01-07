@@ -1,7 +1,10 @@
-pipeline:
-  frontend:
+kind: pipeline
+name: default
+
+steps:
+  - name: test
     image: node:10.15.0
     commands:
-      - npm install
-      - npm lint
-      - npm test
+      - yarn install
+      - yarn lint
+      - yarn test
