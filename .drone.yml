@@ -1,8 +1,7 @@
 pipeline:
-  frontend:
+  test:
     image: node:10.15.0
     commands:
       - npm install
       - npm run lint
       - npm run test
-
