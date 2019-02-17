@@ -31,7 +31,7 @@
     "babel-jest": "24.1.0",
     "babel-plugin-styled-components": "1.10.0",
     "coveralls": "3.0.2",
-    "enzyme": "3.8.0",
+    "enzyme": "3.9.0",
     "enzyme-adapter-react-16": "1.9.1",
     "eslint": "5.13.0",
     "eslint-config-airbnb": "17.1.0",
